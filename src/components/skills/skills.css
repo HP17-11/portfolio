@@ -1,0 +1,92 @@
+#skills {
+  height: calc(90vh - 0rem);
+  width: 100vw;
+  max-width: 95rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactpagetitle {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: yellow;
+}
+
+.skillsimg {
+  margin: 1rem auto;
+  max-height: 100rem;
+  margin-top: 2rem;
+  max-width: 50vw;
+  min-width: 50vw;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skillimg {
+  margin: auto;
+  border: solid 2px yellow;
+  border-radius: 2rem;
+  padding: 1rem;
+  margin: 1rem;
+  max-width: 10vw;
+  min-width: 10vw;
+}
+
+#clients {
+  padding: 2rem;
+}
+
+
+
+
+.submitbtn:hover {
+  background: yellow;
+  color: #022c43;
+  padding: 0.85rem 4rem;
+  /*border: 3px solid white;*/
+}
+
+.skillimg:hover {
+    background: #034163;
+    color: white;
+    border: solid 4px yellow;
+    border-radius: 2rem;
+    font-size: large;
+    /*border: 3px solid white;*/
+  }
+
+
+
+@media screen and (max-width: 840px) {
+  .skillsimg {
+    margin: 1rem auto;
+    /* padding-left: 40rem; */
+    max-height: 24rem;
+    /* display: flex; */
+    /* flex-direction: column; */
+    overflow-y: scroll;
+    width: 80vw;
+    max-width: 60vw;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .skillimg {
+    object-fit: cover;
+    width: 23%;
+    height: 20vh;
+    min-width: 9rem;
+    padding: 0 2rem;
+    max-width: 9rem;
+    margin: auto;
+    padding: 0.25;
+  }
+}

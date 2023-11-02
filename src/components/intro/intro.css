@@ -1,0 +1,105 @@
+#intro{
+    height: calc(100vh - 4rem);
+    width: 100vm;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.bg{
+position: absolute;
+top: -1rem;
+right: 0;
+z-index: -1;
+object-fit: cover;
+height: 100vh;
+padding-right: 8rem; 
+
+}
+.introcontent{
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hello{
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+.nameintro{
+    color: yellow;
+}
+.intropara{
+    font-size: medium;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.btn{
+    background: white;
+    margin: 1rem 0;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 2rem;
+}
+.hireme{
+    object-fit: cover;
+    margin: 0 0.25rem;
+    height: 1rem;
+    padding-right: 0.25rem;
+}
+
+.intromenubtn:hover{
+
+    background: yellow;
+    color: black;
+    padding: 0.85rem 2.10rem;
+    /*border: 3px solid white;*/
+
+}
+
+.intromenubtn{
+    background: white;
+    color: black;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*padding: 0 1rem;*/
+    padding: 0.75rem 2rem;
+    border-radius: 2rem;
+    margin-top: 1rem;
+
+    /* background: white;
+    margin: 1rem 0;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 2rem; */
+}
+
+@media screen and (max-width:840px) {
+     .bg{
+        right: -50vw;
+        padding-right: 0rem;
+    } 
+    .introcontent{
+        font-size: 10vw;
+    }
+    .hello{
+        font-size: 4.5vw;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+    .bg{
+       right: -40vw;
+       padding-right: 4rem;
+       width: 160vw;
+       height: 90vh;
+       top: 0.5rem;
+   } 
+}

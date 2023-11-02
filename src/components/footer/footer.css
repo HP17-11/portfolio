@@ -1,0 +1,23 @@
+.footer{
+    width: 100vw;
+    height: 2rem;
+    background: #022c43;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    font-size: small;
+    margin-top: 0rem;
+    text-align: center;
+}
+
+.contactdetail{
+    color: yellow;
+    font-weight: 500;
+    font-size: 0.90rem;
+    margin-top: 2rem;
+}
+
+.lastsec{
+    margin-top: -2rem;
+} 
