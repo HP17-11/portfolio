@@ -1,7 +1,7 @@
 {
   "name": "hpportfolio",
   "version": "0.1.0",
-  "homepage": "https://HP17-11.github.io",
+  // "homepage": "https://HP17-11.github.io",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
@@ -18,9 +18,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build"
+    "eject": "react-scripts eject"
+    // "predeploy" : "npm run build",
+    // "deploy" : "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
