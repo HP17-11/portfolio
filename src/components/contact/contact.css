@@ -90,3 +90,17 @@
     /* padding: 0.85rem 4rem; */
     /*border: 3px solid white;*/
   }
+
+  @media screen and  (max-width:720px){
+
+    #contact {
+      height: calc(75vh - 4rem);
+    }
+
+    .contactform{
+      padding-left: 0rem; 
+    }
+
+ 
+    
+} 

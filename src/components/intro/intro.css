@@ -95,10 +95,15 @@ padding-right: 8rem;
 }
 
 @media screen and (max-width:500px) {
+
+    #intro{
+        height: calc(100vh - 4rem);
+        width: auto;
+    }
     .bg{
        right: -40vw;
-       padding-right: 4rem;
-       width: 160vw;
+       padding-right: 3.25rem;
+       width: auto;
        height: 90vh;
        top: 0.5rem;
    } 

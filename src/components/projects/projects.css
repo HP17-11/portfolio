@@ -162,3 +162,15 @@ color: white;
     font-weight: 100;
     color: yellow;
 } */
+@media screen and  (max-width:720px){
+
+  #projects{
+    min-height: calc(100vh - 10rem);
+    width: auto;
+    max-width: 60rem;
+  }
+  
+
+ 
+  
+} 

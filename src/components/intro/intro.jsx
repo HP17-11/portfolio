@@ -2,7 +2,7 @@ import React from "react";
 import profile from '../../assets/profilenew1.png'
 
 import downloadImg from "../../assets/downloads.png"
-import resume from "../../assets/Het_Patel.pdf";
+import resume from "../../assets/Het_Patel_23-24.pdf";
 
 import './intro.css';
 

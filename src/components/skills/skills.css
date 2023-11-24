@@ -66,6 +66,10 @@
 
 
 @media screen and (max-width: 840px) {
+
+  #skills {
+    height: calc(90vh - 12rem);
+  }
   .skillsimg {
     margin: 1rem auto;
     /* padding-left: 40rem; */
@@ -77,16 +81,29 @@
     max-width: 60vw;
     justify-content: center;
     align-items: center;
+    padding: 1rem;
   }
 
   .skillimg {
     object-fit: cover;
     width: 23%;
-    height: 20vh;
+    height: 9vh;
     min-width: 9rem;
-    padding: 0 2rem;
+    /* padding: 1.5rem 2rem; */
     max-width: 9rem;
-    margin: auto;
-    padding: 0.25;
+    /* margin: auto; */
+    /* padding: 0.25rem; */
+    /* margin: auto; */
+    /* border: solid 2px yellow; */
+    border-radius: 2rem;
+     padding: 1.40rem 0rem; 
+    align-items: center;
+    justify-content: center;
+    
+
+    /* margin: 1rem; */
+    /* max-width: 10vw; */
+    /* min-width: 10vw; */
   }
 }
+
