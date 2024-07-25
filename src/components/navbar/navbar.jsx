@@ -4,7 +4,7 @@ import newLogo from "../../assets/h2.png";
 import listmenu from "../../assets/menu.png";
 import { Link } from "react-scroll";
 import downloadImg from "../../assets/downloads.png"
-import resume from "../../assets/Het_Patel_23-24.pdf";
+import resume from "../../assets/Het_Patel_Resume.pdf";
 
 const Navbar = () => {
   const [showmenu, setShowmenu] = useState(false);
